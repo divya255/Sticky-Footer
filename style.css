@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	text-align: center;
+}
+header {
+	background:blueviolet;
+	padding: 20px 0;
+}
+header a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0 40px;
+}
+.banner {
+	background: blueviolet;
+	color: #fff;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.text-area h2 {
+	font-size: 60px;
+	text-transform: capitalize;
+}
+.text-area p {
+	font-size: 16px;
+	width: 60%;
+	text-align: center;
+	line-height: 1.8;
+	margin: auto;
+}
+.content {
+	background: blueviolet;
+	color: #fff;
+}
+.content h2 {
+	font-size: 35px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+.content p {
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.footer {
+	position: sticky;
+	bottom: 0;
+	background-color: white;
+	padding: 15px;
+}
+.footer h2 {
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.footer h2 span {
+	display: block;
+	margin-top: 10px;
+}
+.footer h2 span i {
+	margin: 0 15px;
+}
+.footer-2 {
+	min-height: 100px;
+	background: #000;
+	font-size: 18px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color: white;
+}
